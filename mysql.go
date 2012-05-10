@@ -1,4 +1,6 @@
 /**
+a hello world that using google Go lang to connect mysql 
+
 install:
 go get github.com/ziutek/mymysql/thrsafe
 go get github.com/ziutek/mymysql/autorc
