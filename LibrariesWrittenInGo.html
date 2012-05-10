@@ -1,0 +1,562 @@
+﻿<!--
+this file from 
+http://go-lang.cat-v.org/pure-go-libs
+
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Libraries Written in Go</title>
+
+    <link rel="stylesheet" href="/pub/style/style.css" type="text/css" media="screen, handheld" title="default">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="/_werc/pub/style.css" type="text/css" media="screen" title="default">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+
+
+<meta name="verify-v1" content="6zEoK0WMlnLmIS/w7Pnh6+srZECHsvnMGN0kQmowSGk=" />
+<meta name="google-site-verification" content="z5zCyEitNLNZmhVblsogrEiy6Acf0UZROsFMtLjioN4" />
+<META name="y_key" content="49dff3fad5352458"><META name="y_key" content="5dc40bfee9494e98"><META name="y_key" content="b60a53d1fa98f4c8">
+<meta name="msvalidate.01" content="5008C6E6B172BEB1F43E770296C3D560" />
+<meta name="alexaVerifyID" content="l1vBNiKWqe9hCZhp0jV8OKPyjps" />
+
+    
+
+</head>
+<body>
+
+<div id="header">
+    <div class="superHeader">
+<!--<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>-->
+<div class="left">
+      <!-- 
+    <div class="g-plusone" data-size="small"></div>
+<g:plusone size="small"></g:plusone>
+<span style="padding-left: 4.4em">|</span><!--  -->
+      <a href="http://quotes.cat-v.org">quotes</a> |
+      <a href="http://doc.cat-v.org">docs</a> |
+      <a href="http://repo.cat-v.org">repo</a> |
+      <a href="http://go-lang.cat-v.org">golang</a> |
+      <a href="http://sam.cat-v.org">sam</a> |
+      <a href="http://man.cat-v.org">man</a> |
+      <a href="http://acme.cat-v.org">acme</a> |
+      <a href="http://glenda.cat-v.org">Glenda</a> |
+      <a href="http://ninetimes.cat-v.org">9times</a> |
+      <a href="http://harmful.cat-v.org">harmful</a> |
+      <a href="http://9p.cat-v.org/">9P</a> |
+      <a href="http://cat-v.org">cat-v.org</a>
+    </div>
+
+    <div class="right">
+      <span class="doNotDisplay">Related sites:</span>
+      | <a href="http://cat-v.org/update_log">site updates</a>
+      | <a href="/sitemap">site map</a> |
+
+
+
+    </div>
+
+    </div>
+
+    <div class="midHeader">
+    <h1 class="headerTitle"><a href="/">Go Language Resources <span id="headerSubTitle">Go, golang, go...</span></a></h1>
+    </div>
+    
+    <div class="subHeader"><br></div>
+</div>
+
+    <div id="side-bar">
+        <div>
+<p class="sideBarTitle">Resources:</p>
+<ul>
+<li><a href="/arch-ports">&rsaquo; arch ports</a></li>
+<li><a href="/books">&rsaquo; books</a></li>
+<li><a href="/dev-utils">&rsaquo; dev utils</a></li>
+<li><a href="/doc/">&rsaquo; doc/</a></li>
+<li><a href="/go-code">&rsaquo; go code</a></li>
+<li><a href="/go-search">&rsaquo; go search</a></li>
+<li><a href="/irc-logs/">&rsaquo; irc logs/</a></li>
+<li><a href="/library-bindings">&rsaquo; library bindings</a></li>
+<li><a href="/organizations-using-go">&rsaquo; organizations using go</a></li>
+<li><a href="/os-ports">&rsaquo; os ports</a></li>
+<li><a href="/other-implementations">&rsaquo; other implementations</a></li>
+<li><a href="/packages">&rsaquo; packages</a></li>
+<li><a href="/pure-go-libs" class="thisPage">&raquo;<i> pure go libs</i></a></li>
+<li><a href="/quotes">&rsaquo; quotes</a></li>
+<li><a href="/talks/">&rsaquo; talks/</a></li>
+<li><a href="/text-editors/">&rsaquo; text editors/</a></li>
+<li><a href="/university-courses">&rsaquo; university courses</a></li>
+</ul>
+        </div>
+    </div>
+
+<div id="main-copy">
+
+
+<h1>Libraries Written in Go</h1>
+
+<p>This are various libraries implemented in the Go programming language.</p>
+
+<p>Please <a href="http://uriel.cat-v.org/contact">contact me</a> if you know of any others not listed here.</p>
+
+<h2>Databases</h2>
+
+<ul>
+<li><a href="http://github.com/hoisie/gocouch">gocouch</a> - A CouchDB client library written in Go by Michael Hoisie.</li>
+<li><a href="http://code.google.com/p/gofluid/">gofluid</a> - FluidDB client library for Go by rossdjones (<em>repo is down?</em>)</li>
+<li><a href="http://github.com/yyyc514/go_datamapper">go datamapper</a> - ActiveRecord-like database wrapper for Go by Josh Goebel.</li>
+<li><a href="http://github.com/phf/go-db">go-db</a> - A generic database API.</li>
+<li><a href="https://github.com/bradfitz/gomemcache/">gomemcache</a> - Memcached client library. By Brad Fitzpatrick (the original author of memcache!).</li>
+<li><a href="http://github.com/kklis/gomemcache">gomemcache</a> - Another memcache client implemented in Go. By Krzysztof Kliś (aka kklis).</li>
+<li><a href="https://github.com/bketelsen/handlersocket-go">HandlerSocket-GO</a> - Go client library to talk directly to InnoDB using the HandlerSocket protocol. By Brian Ketelsen.</li>
+<li><a href="https://github.com/davemeehan/Neo4j-GO">Neo4j-Go</a> - REST client for the Neo4j graph database. By Dave Meehan.</li>
+<li>PostgreSQL
+<ul>
+<li><a href="https://github.com/bmizerany/pq">pq</a> - PostgreSQL client library in pure Go developed at Heroku. By Blake Mizerany.</li>
+<li><a href="http://github.com/lxn/go-pgsql">go-pgsql</a> - Client library for version 3.0 of the PostgreSQL protocol (PgSQL 7.4 and above). By Alexander Neumann.</li>
+</ul></li>
+<li>MySQL
+<ul>
+<li><a href="http://github.com/Philio/GoMySQL">GoMySQL</a> - A quite complete threadsafe MySQL client library written in Go. By Phil Bayfield.</li>
+<li><a href="http://code.google.com/p/mysql-connector-go/">mysql-connector-go</a> is a package to connect to MySQL from Go by Gerben Peters.</li>
+<li><a href="http://github.com/thoj/Go-MySQL-Client-Library">MySQL Client Library</a> A MySQL client lib in Go. By thoj.</li>
+<li><a href="https://github.com/ziutek/mymysql">MyMySQL</a> - Another MySQL client library written in pure Go. By Michał Derkacz.</li>
+</ul></li>
+<li>MongoDB
+<ul>
+<li><a href="http://labix.org/mgo">mgo</a> - Driver for MongoDB. By Gustavo Niemeyer.</li>
+<li><a href="http://github.com/mikejs/gomongo">gomongo</a> - Go driver for MongoDB by Michael Stephens.</li>
+</ul></li>
+<li>Redis
+<ul>
+<li><a href="https://github.com/hoisie/redis.go">redis.go</a> - Powerful Redis client library. By Michael Hoisie.</li>
+<li><a href="http://github.com/alphazero/Go-Redis">Go-Redis</a> - Client and Connectors for Redis' key-value store. By Joubin Houshyar (aka alphazero).</li>
+<li><a href="https://github.com/simonz05/godis">godis</a> - Another Redis client. By Simon Zimmermann.</li>
+</ul></li>
+</ul>
+
+<h2>Storage and File Systems</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/govt/">govt</a> - Client and server implementations of the <a href="http://doc.cat-v.org/plan_9/4th_edition/papers/venti/">Venti</a> content-addressable-storage protocol. By Latchesar Ionkov.</li>
+<li><a href="https://github.com/hanwen/go-fuse">go-fuse</a> - Pure Go library to build FUSE file systems. By Han-Wen Nienhuys.</li>
+</ul>
+
+<h2>File Formats</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/gocsv/">gocsv</a> - Library to parse and generate CSV (Comma-Separated Values) files. By consalus.</li>
+<li><a href="http://github.com/bradfitz/golang-mime-multipart">golang-mime-multipart</a> - MIME multipart parser. By Brad Fitzpatrick.</li>
+<li><a href="http://code.google.com/p/mimeparse/">mimeparse</a> - Simple library to handle mime-types. By Joe Gregorio.</li>
+<li><a href="https://github.com/nranchev/go-libGeoIP">go-libGeoIP</a> - Library to access Maxmind GeoIP database. By Nikola Ranchev.</li>
+<li><a href="https://github.com/mmitton/asn1-ber">asn1-ber</a> - Library for ASN1 BER encoding and decoding. By Michael Mitton.</li>
+<li><a href="https://bitbucket.org/ww/marc21">marc21</a> - Library to read and write MARC21 bibliographic catalogue records. By William Waites.</li>
+<li><a href="https://github.com/tealeg/xlsx">xlsx</a> - Library to read Microsoft Excel xlsx files. By Geoff Teale.</li>
+</ul>
+
+<h2>Compression</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/snappy-go/">snappy-go</a> - Implmentation of the Snappy compression format. By Nigel Tao and the rest of the Go team at Google.</li>
+</ul>
+
+<h2>S-Expressions Parsers</h2>
+
+<ul>
+<li><a href="https://github.com/feyeleanor/sexp">sexp</a> - An S-Expression library for Go. By Eleanor McHugh.</li>
+<li><a href="https://github.com/jteeuwen/gsx">gsx</a> - A configurable S-Expressions parser. By jimt.</li>
+<li><a href="https://github.com/cthom06/gosexp">gosexp</a> - Simple S-Expression parser. By Corey Thomasson.</li>
+</ul>
+
+<h2>YAML Parsers</h2>
+
+<p><a href="https://bitbucket.org/zombiezen/yaml">yaml</a> - Parser for YAML 1.2. By Ross Light.
+<a href="http://code.google.com/p/goyaml/">goyaml</a> - Pure Go YAML parser based on LibYAML. By rlight2.
+<a href="https://github.com/kylelemons/go-gypsy">go-gypsy</a> - Parser for a simplified subset of YAML. By Kyle Lemons.</p>
+
+<h2>Web</h2>
+
+<ul>
+<li><a href="http://github.com/jldailey/fcgigo">fcgigo</a> - A FastCGI implementation in Go. By Jesse Dailey.</li>
+<li><a href="https://launchpad.net/~ericmoritz/+junk/gofastcgi">gofastcgi</a> - by Eric Moritz.</li>
+<li><a href="https://github.com/nebukadnezzar/cgi.go">cgi.go</a> - A simple 'plain-old' CGI library (Probably obsolete now that there is CGI support in Go's standard HTTP library.) By nebukadnezzar. </li>
+<li><a href="http://github.com/jteeuwen/go-pkg-rss">go-pkg-rss</a> - A package to read RSS and Atom feeds, providing a caching mechanism that adheres to the feed specs. By Jim Teeuwen.</li>
+<li><a href="http://code.google.com/p/godom/">godom</a> - A small library that implements a very small, non-compliant subset of the W3C DOM Core. By Jeff Schiller (aka codedread) and metaphorically.</li>
+<li><a href="http://github.com/bobappleyard/bwl">bwl</a> ("<em>Bob's Wonderful Go Libraries</em>") - A set of libraries to help build web sites in Go. By Bob Appleyard.</li>
+<li><a href="http://github.com/hoisie/httplib.go">httplib.go</a> - 'Low level' client HTTP library that provides keep-alive connections and generic requests. By Michael Hoisie.</li>
+<li><a href="https://bitbucket.org/taruti/http_digest.go/wiki/Home">http_digest.go</a> - Implementation of HTTP's Digest Auth. By Taru Karttunen.</li>
+<li><a href="https://github.com/madari/go-socket.io">go-socket.io</a> - Backend implementation of the socket.io web-browser transport transport abstraction. By Jukka-Pekka Kekkonen.</li>
+<li><a href="https://bitbucket.org/ww/goautoneg">goautoneg</a> - HTTP Content-Type Negotiation, match the Accept header against MIME types. By the Open Knowledge Foundation.</li>
+<li><a href="http://gopkgdoc.appspot.com/pkg/github.com/madari/pusher.go">pusher.go</a> - HTTP Server Push library conforming to the Basic HTTP Push Relay Protocol. By Jukka-Pekka Kekkonen.</li>
+<li><a href="https://github.com/bpowers/seshcookie">seshcookie</a> - A web session library inspired by Beaker. By Bobby Powers.</li>
+<li><a href="https://github.com/araddon/m2go">m2go</a> - Mongrel2 Handler for Go. By Aaron Raddon.</li>
+</ul>
+
+<h2>Web Frameworks</h2>
+
+<ul>
+<li><a href="https://github.com/paulbellamy/mango">mango</a> - Modular web-application framework inspired by Rack and PEP333. By Paul Bellamy.</li>
+<li><a href="http://github.com/hoisie/web.go">web.go</a> - A simple framework to write webapps in Go. By Michael Hoisie.</li>
+<li><a href="http://github.com/nono/Goldorak.Go">Goldorak.Go</a> - A Go web miniframework built using mustache.go, web.go and Go-Redis. By Bruno Michel.</li>
+<li><a href="http://code.google.com/p/goweb/">goweb</a> - RESTful and lightweight wrapper framework around the stdlib http package. By Mat Ryer.</li>
+<li><a href="https://github.com/crazy2be/wfdr">wfdr</a> -  Another simple web framework. By crazy2be.</li>
+<li><a href="https://github.com/scyth/go-webproject">go-webproject</a> - Easy to use small framework for web programming in Go. By Zeljko Tomic.</li>
+<li><a href="http://gorilla-web.appspot.com/">Gorilla</a> - Gorilla is a minimalist web toolkit built on top of the stdlib Go http package. By Rodrigo Moraes.</li>
+</ul>
+
+<h2>WebSockets</h2>
+
+<ul>
+<li><a href="https://github.com/nu7hatch/webrocket">Rocket</a> - Very fast and reliable WebSockets server/framework/library. By Chris Kowalik.</li>
+</ul>
+
+<h2>Templating</h2>
+
+<ul>
+<li><a href="http://github.com/hoisie/mustache.go">mustache.go</a> - A Go implementation of the Mustache template language. By Michael Hoisie.</li>
+<li><a href="https://github.com/ziutek/kasia.go">kasia.go</a> - Implementation of the Kasia text templating system. By Michał Derkacz.</li>
+<li><a href="https://github.com/fzzbt/neste">neste</a> - Extended version of Go's template package for generating textual output from nested templates. By Juhani Ahman.</li>
+</ul>
+
+<h2>Web Services and Clients for Web APIs</h2>
+
+<ul>
+<li><a href="https://github.com/mncaudill/go-flickr">go-flickr</a> - A wrapper for Flickr's WEB API. By Nolan Caudill of Flickr.</li>
+<li><a href="http://gitorious.org/go-flickr/">go-flickr</a> - An older client lib for the flickr API. By Frederic Gobry.</li>
+<li><a href="http://github.com/montsamu/go-twitter-oauth">go-twitter-oauth</a> - A simple Twitter (and supporting OAuth code) client for the Go programming language by Samuel Montgomery-Blinn.</li>
+<li><a href="http://github.com/hoisie/twitterstream">twitterstream</a> - Client library for Twitter's streaming API. By Michael Hoisie.</li>
+<li><a href="http://github.com/jb55/go-twitter">go-twitter</a> - Another twitter lib in Go, this one by Bill Casarin.</li>
+<li><a href="http://github.com/tanaton/get2ch-go">get2ch-go</a> - A library to access the 2channel Japanese web bulletin board. By tanaton.</li>
+<li><a href="http://github.com/jteeuwen/go-pkg-lastfm">go-pkg-lastfm</a> - A library to access the entire Last.fm 2.0 webservice API, including the authenticated services. By Jim Teeuwen. </li>
+<li><a href="https://wiki.ubuntu.com/goamz">goamz</a> - Client library to access Amazon Web Services. By Canonical's Ensemble project.</li>
+<li><a href="https://github.com/justinlilly/go-ghissues">go-ghissues</a> - Client lib for Github's Issues API. By Justin Lilly.</li>
+<li><a href="https://github.com/ancientlore/go-dealmap">go-dealmap</a> - Library to access the DealMap API. By Michael Lore.</li>
+<li><a href="https://github.com/ancientlore/go-tripit">go-tripit</a> - Library to access the TripIt API. By Michael Lore.</li>
+</ul>
+
+<h2>OAuth</h2>
+
+<ul>
+<li><a href="https://github.com/csmcanarney/gooauth">gooauth</a> - OAuth 1.0 package. By Calvin McAnarney.</li>
+<li><a href="https://github.com/alloy-d/goauth">goauth</a> - Another OAuth 1.0 package. By Adam Lloyd.</li>
+<li><a href="https://github.com/garyburd/twister/tree/master/oauth/">twister/oauth</a> - OAuth package including OAuth 2.0 support, this one part of the twister HTTP server. By Gary Burd.</li>
+</ul>
+
+<h2>Graphics</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/x-go-binding/">x-go-binding</a> - Go 'bindings' to the X11 protocol, equivalent to XCB. Maintained by Nigel Tao and the Go team.</li>
+<li><a href="http://github.com/ajstarks/svgo">svgo</a> - A library for generation of SVG vector graphics files. By Anthony Starks.</li>
+<li>bmp.go (http://gopaste.org/w0D8b - <em>Down</em>) - Simple Package to Handle encoding/decoding Windows BMP files by Ralph Sleigh.</li>
+<li><a href="http://code.google.com/p/pdfreader/">pdfreader</a> - A library to read the contents of PDF files. By helmwo.</li>
+<li><a href="http://code.google.com/p/freetype-go/">freetype-go</a> - A rewrite of the Freetype font engine in Go. By Nigel Tao.</li>
+<li><a href="http://bitbucket.org/mpl/scale">scale</a> - Image rescaling algorithms. By Mathieu Lonjaret.</li>
+<li><a href="http://code.google.com/p/draw2d/">draw2d</a> - A postcript-inspired 2D drawing package. By Legoff Laurent.</li>
+<li><a href="http://code.google.com/p/graphics-go/">graphics-go</a> - Basic image manipulation operations library in Go. By some of the members of the Go team at Google and others.</li>
+</ul>
+
+<h2>Graphical User Interfaces and Toolkits</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/rog-go/source/browse/canvas/">canvas</a> - A widget and drawing library using exp/draw and freetype/raster. By Rog Peppe.</li>
+<li><a href="https://github.com/droundy/gui">gui</a> - GUI Widget library. By David Roundy.</li>
+</ul>
+
+<h2>Distributed Computing</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/gocluster/">gocluster</a> - Implementation of a clustering heuristic in Go using a particle swarm optimization technique. By willscott and bart broad.</li>
+<li><a href="http://code.google.com/p/go-router/">go-router</a> - A package for peer-peer publish/subscribe message passing. By Yigong Liu.</li>
+<li><a href="https://github.com/bradfitz/goman">goman</a> - Gearman client. By Brad Fitzpatrick.</li>
+<li><a href="https://wiki.ubuntu.com/gozk">gozk</a> - Allows communication with ZooKeeper clusters. By Canonical.</li>
+</ul>
+
+<h2>IRC and IM</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/go-bot/source/browse/irc.go">irc.go</a> - Go IRC bot framework. By Gracenotes (aka Matt Gruen).</li>
+<li><a href="http://github.com/jteeuwen/calculon/">Calculon</a> - A concurrent IRC bot with support for runtime (un)loadable modules and configurable via a web interface. By Jim Teeuwen (aka exch).</li>
+<li><a href="http://github.com/thoj/Go-IRC-Client-Library">Go-IRC-Client-Library</a> - What the name says. By Thomas Jager.</li>
+<li><a href="http://github.com/fluffle/goirc/">goirc</a> - Event-based stateful IRC client framework for Go by Alex Bramley (aka  fluffle).</li>
+<li><a href="http://logik.li/projects/goty">GoTY</a> (<em>Go Troll Yourself</em>) - Minimalist client irc library by Samuel Baldwin (aka shardz).</li>
+</ul>
+
+<h2>Other Network Protocols</h2>
+
+<ul>
+<li><a href="http://bitbucket.org/f2f/go9p/">go9p</a> - 9p protocol implementation in Go by Andrey Mirtchovski and Latchesar Ionkov.</li>
+<li><a href="http://code.google.com/p/go9">go9</a> - An implementation of the <a href="http://9p.cat-v.org">9P distributed file system protocol</a> in go by KillerX.</li>
+<li><a href="http://github.com/nf/gostomp">gostomp</a> - Implementation of the STOMP (Streaming Text Orientated Messaging Protocol) messaging protocol. By nf.</li>
+<li><a href="http://code.google.com/p/goprotobuf/">goprotobuf</a> - Google's Protocol Buffers for Go. Maintained by the Go team.</li>
+<li><a href="http://github.com/anatol/thrift/tree/go/lib/go/src/">thrift</a> - Initial work on Thrift for Go. By Anatol. (<em>deprecated</em>)</li>
+<li><a href="https://github.com/pomack/thrift4go">thrift4go</a> - A more uptodate Thrift for Go with rpc support. By Aalok Shah.</li>
+<li><a href="http://github.com/Philio/GoSMPP">GoSMPP</a> - A library implementing the SMPP messaging protocol. By Phil Bayfield.</li>
+<li><a href="http://github.com/nf/go-wave-robot-api">go-wave-robot-api</a> - A library for writing Google Wave 'robots'. By Andrew Gerrand(of the Go team).</li>
+<li><a href="http://github.com/mattn/go-gntp">go-gntp</a> - An implementation of the Growl Network Transport Protocol(GNTP). By  Yasuhiro Matsumoto (aka mattn).</li>
+<li><a href="http://github.com/petar/GoDCCP">GoDCCP</a> - Implementation of the Datagram Congestion Control Protocol. By Petar Maymounkov.</li>
+<li><a href="http://code.google.com/p/nntp-go/">nntp-go</a> - Implementation of the NNTP newsgroups protocol. By Conrad Meyer and the Go team.</li>
+<li><a href="https://github.com/abneptis/GoNetlink">GoNetlink</a> - Netlink sockets implementation. By James Nurmi.</li>
+<li><a href="https://github.com/mmitton/ldap">ldap</a> - Basic LDAP v3 client library. By Michael Mitton.</li>
+<li><a href="https://bitbucket.org/zombiezen/spdy">spdy</a> - An implementation of the SPDY protocol in Go. By Ross Light.</li>
+<li><a href="https://bitbucket.org/taruti/ssh.go">ssh.go</a> - SSH2 client implementation. By Taru Karttunen.</li>
+<li>FTP:
+<ul>
+<li><a href="https://github.com/jlaffaye/goftp">goftp</a> - FTP client library. By Julien Laffaye.</li>
+<li><a href="https://github.com/smallfish/ftp.go">ftp.go</a> - Another FTP client library. By smallfish.</li>
+</ul></li>
+</ul>
+
+<h2>DNS</h2>
+
+<ul>
+<li><a href="http://github.com/miekg/godns">godns</a> - An alternative DNS libary. By Miek Gieben.</li>
+<li><a href="http://code.google.com/p/go-idn/">go-idn</a> - Go version of libidn, handling the specs for: IDNA, punycode, stringprep and a fully working Unicode normalization. By Hannes Ármann Baldursson.</li>
+</ul>
+
+<h2>General Networking</h2>
+
+<ul>
+<li><a href="http://github.com/petar/GoNeedle">GoNeedle</a> - System that 'punches' reliable transport 'holes' over UDP through NATs and Firewalls. By Petar Maymounkov.</li>
+</ul>
+
+<h2>Programming</h2>
+
+<ul>
+<li><a href="http://www.cs.hmc.edu/~me/go/iterutils/iterutils.go">iterutils</a> - Implements functions from Python's itertools module, by Michael Elkins.</li>
+<li><a href="http://github.com/vito/go-parse">go-parse</a> - A Parsec-like parsing library for Go by Alex Suraci (aka vito).</li>
+<li><a href="https://code.google.com/p/go-stringio/">go-stringio</a> - Library implementing the various file I/O interfaces using memory buffers instead of real files. By Yongjian Xu.</li>
+<li><a href="http://github.com/thoj/go-galib">go-galib</a> - A library of Genetic Algorithms written in Go. By Thomas Jager.</li>
+<li><a href="http://github.com/mattn/godeferred">godeferred</a> - Re-implementation in Go of the JSDeferred async processing framework. By  Yasuhiro Matsumoto (aka mattn).</li>
+<li><a href="https://github.com/willf/bloom">bloom</a> - Libary implementing bloom filters. By willf.</li>
+<li><a href="https://github.com/jbrukh/bayesian">bayesian</a> - Naive Bayesian classification library. By jbrukh.</li>
+</ul>
+
+<h2>Go</h2>
+
+<ul>
+<li><a href="https://github.com/bobappleyard/go-pkg">go-pkg</a> - Parse and extract information from Go package files. By bobappleyard.</li>
+</ul>
+
+<h2>Data Structures and Containers</h2>
+
+<ul>
+<li><a href="http://github.com/phf/go-intset">go-intset</a> - A library to work with bounded sets of integers, including multiple alternative implementations. By Peter Froehlich.</li>
+<li><a href="http://github.com/pwil3058/gosets">gosets</a> -  A package that implements set types for Go. By Peter Williams.</li>
+<li><a href="https://github.com/runningwild/go-btree">go-btree</a> - BTree library using gotgo. By runningwild.</li>
+<li><a href="https://github.com/zot/seq">seq</a> - Functional, concurrent and sequential sequences. By Bill Burdick.</li>
+<li><a href="http://bitbucket.org/taruti/deepcopy/">deepcopy</a> - Deep datastructure copying using reflect. By Taru Karttunen.</li>
+<li><a href="https://github.com/petar/GoLLRB">GoLLRB</a> - Left-Leaning Red-Black (LLRB) implementation of balanced binary search trees. By Petar Maymounkov.</li>
+<li><a href="http://code.google.com/p/go-avltree/">go-avltree</a> - AVL tree (Adel'son-Vel'skii &amp; Landis). By Michael Lore.</li>
+<li><a href="https://bitbucket.org/taruti/skip.go/src">skip.go</a> - Skip lists implementation. By Taru Karttunen.</li>
+<li><a href="https://github.com/willf/bitset">bitset</a> - Package implementing bitsets. By Will Fitzgerald.</li>
+<li><a href="https://github.com/stathat/treap">treap</a> - A balanced binary tree data structure, expected to have logarithmic height. By StatHat.</li>
+</ul>
+
+<h2>System and Low Level Programming Tools</h2>
+
+<ul>
+<li><a href="http://github.com/boggle/coffer">coffer</a> - Package for copying data between memory ranges managed by C code and Go Buffers (uses cgo, so technically not a 'pure Go lib', but neither a binding for an existing C lib). By Stefan Plantikow.</li>
+<li><a href="http://github.com/boggle/gonewrong">gonewrong</a> - Package for dealing with C errors and locking go routines to OS threads. By Stefan Plantikow.</li>
+<li><a href="http://labix.org/gommap">gommap</a> - Library providing a convenient interface for the mmap syscall. By Gustavo Niemeyer.</li>
+</ul>
+
+<h2>Debugging and Performance Profiling</h2>
+
+<ul>
+<li><a href="http://github.com/0xe2-0x9a-0x9b/Go-PerfEvents">Go-PerfEvents</a> - Go interface to performance events which are available in recent Linux kernels. By 0xe2-0x9a-0x9b (aka ⚛).</li>
+<li><a href="http://code.google.com/p/gotimer/">gotimer</a> - A simple way to time Go functions. By Sonia Keys.</li>
+</ul>
+
+<h2>(Unit) Testing</h2>
+
+<ul>
+<li><a href="http://labix.org/gocheck">gocheck</a> - A more advanced testing framework alternative to gotest. By Gustavo Niemeyer.</li>
+<li><a href="https://gist.github.com/770585">blur</a> -  Fuzzer for Go structs using reflection to identify and alter fields. By Scott Dunlop.</li>
+<li><a href="http://github.com/orfjackal/gospec">GoSpec</a> - A BDD framework for Go, by Esko Luontola.</li>
+<li><a href="http://github.com/stesla/gospecify">gospecify</a> - Another BDD library for Go by Samuel Tesla.</li>
+<li><a href="http://code.google.com/p/gomock/">gomock</a> - Mocking framework. By David Symonds.</li>
+<li><a href="https://github.com/tv42/mockhttp.go">mockhttp.go</a> - Mock object for Go http.ResponseWriter. By Tommi Virtanen (aka Tv).</li>
+<li><a href="https://github.com/bmizerany/assert">assert</a> - Assertions for Go tests. By Blake Mizerany and Keith Rarick.</li>
+<li><a href="https://github.com/rdrdr/hamcrest">hamcrest</a> - Hamcrest matchers. By Mick Killianey.</li>
+</ul>
+
+<h2>Command Line UI</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/goargcfg/">goargcfg</a> - Fills a struct with command line arguments using reflection. By jasmuth.</li>
+<li><a href="http://code.google.com/p/optparse-go/">optparse-go</a> A command-line option parser for Go by Kirklin McDonald.</li>
+<li><a href="http://github.com/droundy/goopt">goopt</a> - Getopt clone to parse command-line flags. By David Roundy.</li>
+<li><a href="http://code.google.com/p/opts-go/">opts.go</a> - Library providing POSIX-like and GNU-style command line parsing. By Scott Lawrence.</li>
+<li><a href="https://github.com/remogatto/clingon">clingon</a> - Package for implementing command-line interfaces for games and graphical applications. By Andrea Fazzi.</li>
+<li><a href="https://github.com/kr/pty">pty</a> - A package to interact with Unix pseudo-terminals. By Keith Rarick.</li>
+</ul>
+
+<h2>Cryptography</h2>
+
+<ul>
+<li><a href="http://bitbucket.org/taruti/go-crypto-pkbdf2/src">pkbfd2</a> - </li>
+<li><a href="http://code.google.com/p/crypto-fortuna/">crypto-fortuna</a> - An implementation of the Fortuna CSPRNG (Cryptographically Strong Pseudo-Random Number Generator). By Raif S. Naffah.</li>
+<li>Various crypto libs by Taru Karttunen (aka taruti):
+<ul>
+<li><a href="http://bitbucket.org/taruti/go-extra/src/tip/crypto/envelope/">Envelopes</a> - Public key and/or passwords, encrypting a large envelope of data.</li>
+<li><a href="http://bitbucket.org/taruti/go-extra/src/tip/crypto/hashedbuf/">HashedBuf</a> - A <code>Reader</code> that hashes the contents it reads.</li>
+<li><a href="http://bitbucket.org/taruti/pbkdf2.go">PBKDF2</a> - Implementation of PKCS#5/PKBDF2/HMAC password hashing functions.</li>
+<li><a href="http://bitbucket.org/taruti/aes_xts.go">aes_xts.go</a> - AES XTS encryption.</li>
+<li><a href="http://bitbucket.org/taruti/go-extra/src/tip/crypto/srp/">SRP</a> - Secure Remote Password protocol.</li>
+</ul></li>
+<li><a href="http://github.com/kless/freecrypto">freecrypto</a> - A collection of 'free' crypto algorithms translated from the "Crypto++" library. By John Mac.</li>
+<li><a href="http://github.com/kless/gohasher">gohasher</a> - A libray to build password hashes, similar to <a href="http://man.cat-v.org/unix_8th/3/crypt">Unix's crypt(3)</a>. By John Mac.</li>
+<li><a href="http://code.google.com/p/go-rabbit/">go-rabbit</a> - Implementation of Rabbit encryption algorithm. By syndtd.</li>
+<li><a href="http://code.google.com/p/go-salsa20/">go-salsa20</a> - Implementation of the Synchronous Stream Cipher Salsa20 and its variants Salsa20/8 and Salsa20/12. By syndtd.</li>
+</ul>
+
+<h2>Math</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/gomatrix">gomatrix</a> - A linear algebra package for go. By skelterjohn.</li>
+<li><a href="http://code.google.com/p/gocomplex/">gocomplex</a> - A complex number library for Go by michaelsmith.</li>
+<li><a href="https://code.google.com/p/mudlark-go-pkgs/">mudlark-go-pkgs</a> - Libraries implementing various kinds of set, and tree data structures and sorting algorithms. By Peter Williams.</li>
+<li><a href="http://code.google.com/p/gostat/">gostat</a> - Statistics package. By skelterjohn.</li>
+<li><a href="http://github.com/anschelsc/gofrac">gofrac</a> - A fractions library with support for basic arithmetic. Note that this is partially superseded by the arbitrary precision Rat type in the standard library's <em>big</em> package. By Anschel Schaffer-Cohen.</li>
+<li><a href="https://github.com/tm1rbrt/s3dm-go">s3dm-go</a> - Simple 3D math library. By Tommo.</li>
+<li><a href="https://github.com/skelterjohn/geom">geom</a> - 2D geometry lib. By John Asmuth (aka skelterjohn).</li>
+<li><a href="https://github.com/ziutek/blas">blas</a> - Go implementation of BLAS (Basic Linear Algebra Subprograms). By Michał Derkacz.</li>
+<li><a href="https://code.google.com/p/go-fn/">go-fn</a> - Mathematical functions that are not covered by math pkg. By Peter A. Cejchan.</li>
+<li><a href="https://code.google.com/p/go-gt/">go-gt</a> - Graph theory algorithms. TSP, QAP, and other stuff. By Peter A. Cejchan.</li>
+</ul>
+
+<h2>Games</h2>
+
+<ul>
+<li><a href="http://github.com/beoran/fungo">fungo</a> - A library to help write 2D games in Go. By beoran.</li>
+<li><a href="https://github.com/jteeuwen/gnarly">gnarly</a> - UDP-based networking for multiplayer gaming. By jimt.</li>
+<li><a href="https://github.com/viking/go-rpg">go-rpg</a> - Library to write role playing games. By Jeremy Stephens.</li>
+<li><a href="https://github.com/teomat/Box2d-go">Box2d-go</a> - Rewrite in Go of the Box2d physics engine. By Matteo Goggi.</li>
+</ul>
+
+<h2>Text and String Manipulation</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/sre2/">sre2</a> - Reimplementation in Go of Russ Cox's RE2 C++ regular expressions library. By Sam Thorogood.</li>
+<li><a href="http://github.com/jnwhiteh/go-luapatterns">go-luapatterns</a> - A 'translation'/reimplementation in Go of Lua's string pattern matching, including non-greedy matching. By Jim Whitehead II.</li>
+<li><a href="http://code.google.com/p/golang/source/browse/src/pkg/scanner">scanner</a> - A text scanner that parses primitive types, analogous to Java's <code>java.util.Scanner</code> or C's scanf(3). By yukuku.</li>
+<li><a href="http://code.google.com/p/gostrutils/">gostrutils</a> - A package containing StringTokens and StringBuffer analogous to StringTokenizer and StringBuffer in Java. By Abiola Ibrahim.</li>
+<li><a href="http://code.google.com/p/go-substrs/">go substrs</a> - A container for substring results of pattern matching operations. By James Frasche. </li>
+</ul>
+
+<h2>Charset and Text Encoding Conversion</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/go-charset/">go-charset</a> - Library to convert various character encoding to and from UTF-8, based on Inferno's convcs. By Rog Peppe.</li>
+<li><a href="http://code.google.com/p/mahonia/">mahonia</a> - Character-set conversion library. By Andy Balholm.</li>
+</ul>
+
+<h2>Text Formatting</h2>
+
+<ul>
+<li><a href="https://github.com/knieriem/markdown">markdown</a> - A translation of peg-markdown to Go. By knieriem.</li>
+<li><a href="https://github.com/russross/blackfriday/">blackfriday</a> - Translation of the the upskirt C library to Go. By Russ Ross.</li>
+</ul>
+
+<h2>XML</h2>
+
+<ul>
+<li><a href="http://github.com/jteeuwen/go-pkg-xmlx">go-pkg-xmlx</a> - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browser and exposes some simpel single/multi-node search functions. By Jim Teeuwen.</li>
+<li><a href="https://bitbucket.org/lavalamp/xmlm">xmlm</a> - Struct marshaling and unmarshaling to and from XML, depends on xmlx. By Daniel Smith.</li>
+</ul>
+
+<h2>RPC</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/go-xmlrpc/">go-xmlrpc</a> - Rudimentary client and server implementation of the XML-RPC protocol. By Daniel Smith.</li>
+<li><a href="https://bitbucket.org/taruti/http_jsonrpc.go/">http_jsonrpc.go</a> - JSONRPC server library with support for Service Mapping Descriptions. By Taru Karttunen.</li>
+</ul>
+
+<h2>Operating System Specific Interfaces</h2>
+
+<ul>
+<li><a href="http://code.google.com/p/goplan9/">goplan9</a> - Go libraries for interacting with Plan 9. By Russ Cox and Rob Pike.</li>
+<li><a href="http://github.com/kless/go-sysuser">go-sysuser</a> - Access Unix user information from  the databases passwd, group, shadow, and gswadow. By John Mac.</li>
+</ul>
+
+<h2>Configuration Files</h2>
+
+<ul>
+<li><a href="http://github.com/kless/goconfig">goconfig</a> - Another fork of goconfig with more features and better documentaiton. By John Mac.</li>
+<li><a href="http://code.google.com/p/goconf/">goconf</a> - A fork of <code>goconfig</code> that updates it to build with newer Go release and adds some new features. By Stephen Weinberg (aka smw).</li>
+<li><a href="http://github.com/msbranco/goconfig">goconfig</a> - Parser for 'configuration' files with a format similar to Windows INI files. By Miguel Branco.</li>
+</ul>
+
+<h2>Scientific Modeling and Simulation</h2>
+
+<ul>
+<li><a href="http://github.com/Arrow/GoGCM">GoGCM</a> - A General Circulation Model (GCM). By Arrow.</li>
+</ul>
+
+<h2>Other Sciences</h2>
+
+<ul>
+<li><a href="https://code.google.com/p/go-eco/">go-eco</a> - Functions for use in (paleo)ecology. Similarity / distance matrices; diversity measures. By Peter A. Cejchan.</li>
+<li><a href="https://github.com/the42/cartconvert">cartconvert</a> - Cartography functions to manipulate coordinates. By Johann Höchtl. </li>
+</ul>
+
+<h2>Misc</h2>
+
+<ul>
+<li><a href="https://github.com/kr/pretty.go">pretty.go</a> - Pretty-printing for Go values. By Keith Rarick.</li>
+<li><a href="http://github.com/beoran/tamias">tamias</a> - A port of Chipmunk Physics to Go. By Beoran.</li>
+<li><a href="http://code.google.com/p/tideland-cgl/">tideland-cgl</a> - Tideland Common Go Library. By themue.</li>
+<li><a href="http://github.com/jteeuwen/go-pkg-mpd">go-pkg-mpd</a> - A library to access the MPD music daemon. By Jim Teeuwen.</li>
+<li><a href="http://github.com/dbravender/go_mapreduce">Go MapReduce</a> - Simple implementation of MapReduce. By Dan Bravender.</li>
+<li><a href="https://bitbucket.org/taruti/bigendian/wiki/Home">bigendian</a> - Binary parsing/printing. By Taru Karttunen.</li>
+<li><a href="https://github.com/dchest/captcha">captcha</a> - Library to generate and verify image and audio CAPTCHAs. By Dmitry Chestnykh.</li>
+<li><a href="https://github.com/jsz/gosms">gosms</a> - A package to send SMS using the bulksms.com API. By Leon Szpilewski.</li>
+<li><a href="https://github.com/Confunctionist/finance">finance</a> - Package for finantial operations, including a Money type with a fixed-length guard for precision arithmetic. By Confunctionist.</li>
+<li><a href="http://code.google.com/p/dbus-go/">dbus-go</a> - D-Bus library. By Nigel Tao and other members of the Go team.</li>
+<li><a href="https://github.com/tuxychandru/gomesh">gomesh</a> - simple HTML decoration library. By Chandra Sekar S.</li>
+</ul>
+
+
+</div>
+
+<div id="footer">
+<br class="doNotDisplay doNotPrint" />
+
+<div class="left"><a href="http://werc.cat-v.org/">Powered by werc</a></div>
+
+<div class="right">
+<form action="http://www.google.com/cse" id="cse-search-box" style="display: inline">
+  <div style="display: inline">
+    <input type="hidden" name="cx" value="partner-pub-2060328396151526:ea9sar-xttn" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="32" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script></div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1220719-1");
+pageTracker._setDomainName("cat-v.org");
+pageTracker._trackPageview();
+
+var pageTracker2 = _gat._getTracker("UA-1220719-12");
+pageTracker2._trackPageview();
+} catch(err) {}</script>
+</div>
+</body></html>
