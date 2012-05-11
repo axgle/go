@@ -14,7 +14,7 @@ import "net/http"
  }
 func main(){
  
-	file_get_contents("http://baidu.com",func(data string){	
+	file_get_contents("http://dashanxue.com",func(data string){	
 		fmt.Printf(data)
 	} )
 
