@@ -1,3 +1,4 @@
+// This example fetches several URLs concurrently, using a WaitGroup to block until all the fetches are complete.
 // based on http://golang.org/pkg/sync/#example_WaitGroup
 package main
  
