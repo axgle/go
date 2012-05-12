@@ -1,3 +1,11 @@
+/*
+parse user input from terminal etc 
+"
+How can we get the length of this array. To get the total flags passed by 
+user on terminal. 
+https://groups.google.com/group/golang-nuts/browse_thread/thread/d685c88fe092f8da
+"
+*/
 package main
 
 import ("fmt"
