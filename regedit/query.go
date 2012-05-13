@@ -12,6 +12,9 @@ import (
 )
 
 func main() {
+	getPath()
+	return
+	 
 	var root syscall.Handle
 	
 	error:=syscall.RegOpenKeyEx(syscall.HKEY_CURRENT_USER, syscall.StringToUTF16Ptr(`Control Panel\Accessibility\HighContrast`),
