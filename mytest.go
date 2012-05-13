@@ -1,21 +1,39 @@
-// based on http://golang.org/pkg/regexp/#Regexp.FindAllString
 package main
- 
-import (
-  "fmt"
-   "regexp"
- 
-)
-func main(){
 
-  r,_:=regexp.Compile("p|oo")
- 
- matches:=r.FindAllString("oop",-1)
- // %q quote element to see... instead of %s
- fmt.Printf("%q \n",matches)
- 
- for _,m:=range matches {
-  fmt.Println(m)
- }
+import (
+	
+	"fmt"
+	"syscall"
+	"unicode/utf16"
+	"unsafe"
+)
+
+var(
+ kernel=syscall.MustLoadDLL("kernel32.dll") 
+ getModuleFileNameProc = kernel.MustFindProc("GetModuleFileNameW")
+)
+
+func getExePath() (exePath string, err error) {
+	return getModuleFileName()
+}
+
+func getModuleFileName() (string, error) {
+	var n uint32
+	b := make([]uint16, syscall.MAX_PATH)
+	size := uint32(len(b))
+
+	r0, _, e1 := getModuleFileNameProc.Call(0, uintptr(unsafe.Pointer(&b[0])), uintptr(size))
+	n = uint32(r0)
+	if n == 0 {
+		return "", e1
+	}
+	return string(utf16.Decode(b[0:n])), nil
+}
+
+func main() {
+    path,_:=getExePath()
+	fmt.Println(path)
 
 }
+
+ 
