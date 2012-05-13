@@ -1,0 +1,8 @@
+windows buildin's `reg` command:
+ 
+  c:\> reg  /?
+  c:\> reg add /?
+  c:\> reg add HKCU\Environment\ /v axgle /d "reg command is cool than go's syscall windows registry API" /t REG_SZ /f
+  c:\> reg delete HKCU\Environment /v axgle /f
+
+and,use `regedit` to see
