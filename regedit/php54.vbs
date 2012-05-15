@@ -1,0 +1,2 @@
+rem reg add HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /v php54server /d "C:\Users\sony\Desktop\github\go\regedit\php54.vbs"
+CreateObject("WScript.Shell").Run "cmd /c D:\phpStudy\php5\php.exe -S localhost:9999 -t C:\Users\sony\Desktop\github\go\regedit",0
