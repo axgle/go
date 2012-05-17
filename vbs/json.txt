@@ -1,0 +1,5 @@
+{"name": "parse json in the vbs",
+  "version" : "1.0.1",
+ 
+  "more": {"name":"..."}
+}
