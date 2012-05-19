@@ -1,3 +1,4 @@
+'http://demon.tw/programming/vbs-run-and-exec.html
 Set ws = CreateObject("WScript.Shell")
 host = WScript.FullName
  
