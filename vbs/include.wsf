@@ -1,0 +1,30 @@
+<job id="ajax">
+   <script language="javascript">
+    html =  new ActiveXObject("htmlfile");
+ html.write('<html></html>');
+    window=html.parentWindow;
+  var navigator = window.navigator;
+    var document = window.document;
+    var location = document.location;
+        window.ActiveXObject = ActiveXObject;
+    var setTimeout = function(func, delay) { return window.setTimeout(func, delay) };
+
+
+   </script>
+   <script src="jquery.min.js">
+ 
+
+   </script>
+
+      <script>
+   $=window.$;
+   $.support.cors = true;
+jQuery=window.jQuery;
+
+    $.get("http://php.net/", function(data){
+       WScript.Echo(data);
+   });
+
+   </script>
+  </job>
+ 
