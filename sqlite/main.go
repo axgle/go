@@ -1,13 +1,12 @@
 package main
 
- 
- 
-
 import (
 	"database/sql"
 	"fmt"
 	_ "github.com/mattn/go-sqlite3"
 	"os"
+	// "code.google.com/p/mahonia"
+	 
 )
 
 func main() {
@@ -44,7 +43,7 @@ func main() {
 	}
 	defer stmt.Close()
 	for i := 0; i < 10; i++ {
-		_, err = stmt.Exec(i, fmt.Sprintf("こんにちわ世界%03d", i))
+		_, err = stmt.Exec(i, fmt.Sprintf("世界   %03d", i))
 		if err != nil {
 			fmt.Println(err)
 			return
@@ -79,4 +78,7 @@ func main() {
 		return
 	}
 	println(name)
+	//println(mahonia.NewEncoder("gbk").ConvertString(name))
+ 
+	 
 }
