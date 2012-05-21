@@ -43,7 +43,7 @@ func main() {
 		return
 	}
 	defer stmt.Close()
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 10; i++ {
 		_, err = stmt.Exec(i, fmt.Sprintf("こんにちわ世界%03d", i))
 		if err != nil {
 			fmt.Println(err)

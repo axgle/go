@@ -1,6 +1,4 @@
-cd ./sqlite3 (which have sqlite3.c)
-gcc -shared -s -o sqlite3.dll -Wl,--out-implib,libsqlite.dll.a 
-(create `sqlite3.dll` and `libsqlite.dll.a`)
+libsqlite3.dll.a can create by `dlltool -D sqlite3.dll -d sqlite3.def -l libsqlite3.dll.a`
 
 cp `libsqlite.dll.a` to `C:\MinGW64\lib`
 cp `sqlite3.c` to `C:\MinGW64\include`
