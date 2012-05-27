@@ -1,3 +1,5 @@
+// godoc github.com/lxn/walk|grep MsgBox
+
 package main
 import "github.com/lxn/walk"
  
