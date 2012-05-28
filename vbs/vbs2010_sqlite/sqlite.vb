@@ -2,6 +2,7 @@
 'http://sourceforge.net/projects/sqlite-dotnet2/
 
 Imports MySql.Data.MySqlClient
+'add ref D:\Program Files (x86)\SQLite.NET\bin\System.Data.SQLite.dll
 Imports system.Data.SQLite
 Public Class Form1
     Dim conn As MySqlConnection
