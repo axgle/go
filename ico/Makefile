@@ -1,8 +1,8 @@
 exe: clean	
-	windres -o res.o resource.rc
-	go tool 6g dhv.go
-	go tool pack grc _go_.6 dhv.6 res.o
-	go tool 6l -o dhv.exe _go_.6
+	windres -o demo_res.o demo.rc
+	go tool 6g demo.go
+	go tool pack grc _demo_go_.6 demo.6 demo_res.o
+	go tool 6l -o demo.exe _demo_go_.6
 	rm  *.6 *.o
 clean:
 	rm -f *.6 *.o *.exe
