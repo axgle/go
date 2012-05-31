@@ -9,6 +9,7 @@ void run(){
   AU3_Sleep(500);
   AU3_WinActivate(L"无标题 - 记事本",L"");
   AU3_Send(L"中文{enter}",0);
+  AU3_ClipPut(L"试试剪贴板");
 }
 */
 import "C"
