@@ -11,7 +11,8 @@ oAutoIt.WinWaitActive "Œﬁ±ÍÃ‚", ""
 
 oAutoIt.Send("^v")
 
-oAutoIt.ToolTip "This is a tooltip", oAutoIt.MouseGetPosX(), oAutoIt.MouseGetPosY()
+'oAutoIt.ToolTip "This is a tooltip", oAutoIt.MouseGetPosX(), oAutoIt.MouseGetPosY()
+oAutoIt.ToolTip "This is a tooltip",oAutoIt.WinGetClientSizeWidth("")/2,oAutoIt.WinGetClientSizeHeight("")/2
 oAutoIt.Sleep 5000     ' Sleep to give tooltip time to display
 
-If oAutoIt.IsAdmin Then WScript.Echo "Admin rights detected"
+'If oAutoIt.IsAdmin Then WScript.Echo "Admin rights detected"
