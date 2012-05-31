@@ -1,4 +1,5 @@
 // http://answers.yahoo.com/question/index?qid=20070303145917AANhnte
+// http://msdn.microsoft.com/en-us/library/ms683174(v=vs.85)
 package main
 import(
  //"fmt"
