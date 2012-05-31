@@ -10,3 +10,8 @@ oAutoIt.clipPut("我是中文看看效果如何这样也是可以的!")
 oAutoIt.WinWaitActive "无标题", ""
 
 oAutoIt.Send("^v")
+
+oAutoIt.ToolTip "This is a tooltip", oAutoIt.MouseGetPosX(), oAutoIt.MouseGetPosY()
+oAutoIt.Sleep 5000     ' Sleep to give tooltip time to display
+
+If oAutoIt.IsAdmin Then WScript.Echo "Admin rights detected"
