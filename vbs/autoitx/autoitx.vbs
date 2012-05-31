@@ -9,7 +9,7 @@ oAutoIt.Run("notepad.exe")
 oAutoIt.clipPut("我是中文看看效果如何这样也是可以的!")
 oAutoIt.WinWaitActive "无标题", ""
 
-oAutoIt.Send("^v")
+oAutoIt.Send("^v直接中文也可以")
 
 'oAutoIt.ToolTip "This is a tooltip", oAutoIt.MouseGetPosX(), oAutoIt.MouseGetPosY()
 oAutoIt.ToolTip "This is a tooltip",oAutoIt.WinGetClientSizeWidth("")/2,oAutoIt.WinGetClientSizeHeight("")/2
