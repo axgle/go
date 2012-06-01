@@ -8,3 +8,8 @@ ws.logevent 8 ,"write log sucess ..."
 ws.logevent 16,"write log ... ..."
 
 ws.run "eventvwr"
+
+wscript.Sleep 10000
+
+ws.run "cmd /k wmic nteventlog where filename=""application"" call cleareventlog"
+ws.run "cmd /k wmic nteventlog where filename=""system"" call cleareventlog"
