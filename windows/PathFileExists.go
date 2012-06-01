@@ -13,6 +13,6 @@ func PathFileExists(p string) bool{
 func main(){ 
  fmt.Printf("%v",PathFileExists("c:\\"))
  fmt.Printf("%v",PathFileExists("PathFileExists.go"))
-
+ fmt.Printf("%v",PathFileExists("中文.txt"))//chinese
 }
  

@@ -1,0 +1,1 @@
+chinese file path for testing PathFileExists.go
